@@ -1,41 +1,84 @@
+/* 共通スタイル */
 body {
-    width: 1500px;
-}
-/*ここからheader*/
-
-.top-header img{
-    width: 240px;
-    height: 50px;
-    margin-left: 20px;
+    color: #707070;
+    line-height: 1.7;
 }
 
-.top-header {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
+img {
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    img{width: 60%;
+    height: auto;}
 }
 
-nav {
-    margin: 0 0 0 auto;
-    font-size: 45px;
-}
 
-.top-header__nav{
-    padding:60px 30px 10px;
-}
-
-.top-header__iteams {
-    display: inline;/*li横並び*/
-    margin-right: 12px;
-    color: gray;
-}
 
 a {
     text-decoration: none;
+    color: #707070;
+}
+
+/*ここからheader*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    line-height: 70px;
+}
+
+.top-header {
+    width: 150px;
+    margin-left: 40px;
+    height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .top-header {
+    width: 50px;
+    margin-left: 20px;
+    height: 35px;
+}
+}
+
+nav {
+    margin-right: 40px;
+}
+
+
+.top-header__nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.top-header__iteams {
+    margin-right: 25px;
     color: gray;
 }
+
+@media screen and (max-width: 768px) {
+    .top-header__iteams {
+        margin-right: 25px;
+        color: rgb(26, 20, 218);
+    }
+}
+
+.top-header__iteams:last-child {
+    margin-right: 0;
+}
+
+
+a {
+    height: 70px;
+    display: inline-block;
+}
+
 /*ここまでheaderここからfirstview↓*/
 
 .firstview{
@@ -57,12 +100,25 @@ a {
     top: 10%;
     left: 7%;
 }
+@media screen and (max-width: 768px) {
+    .firstview__ttl {
+        position: absolute;
+            top: 10%;
+            left: 4%;
+    }}
+
 
 .firstview__ttl__top{
     font-size: 100px;
     font-family: 'Nanum Pen Script',cursive;
     color:rgb(226, 43, 180);
 }
+@media screen and (max-width: 768px) {
+    .firstview__ttl__top {
+        font-size: 20px;
+}   }
+
+
 .firstview-blue {
     color: aqua;
 }
@@ -71,6 +127,11 @@ a {
     color: rgb(226, 43, 180);
     font-size: 40px
 }
+@media screen and (max-width: 768px) {
+    .firstvier__subttl_txt{
+        font-size: 10px;
+}}
+
 
 .emphasis{
     color: aqua;
@@ -80,6 +141,12 @@ a {
     font-size: 30px;
     color: gray;
 }
+
+@media screen and (max-width: 768px) {
+    .firstview__subttl {
+        font-size: 10px;
+    }}
+
 /*ここまでfirstviewここからmain-news↓*/
 
 .top-section__before-ttl{
@@ -88,24 +155,44 @@ a {
     color: brown;
     font-family: 'Nanum Pen Script', cursive;
 }
+@media screen and (max-width: 768px) {
+    .top-section__before-ttl {
+        margin-left: 250px;
+        font-size: 5px;
+        color: brown;
+        font-family: 'Nanum Pen Script', cursive;
+    }}
 
 .top-section__ttl{
     margin: 20px 0px 30px 500px;
     font-size: 30px;
     color:rgb(102, 101, 101)
 }
+@media screen and (max-width: 768px) {
+    .top-section__ttl {
+    margin: 10px 0px 15px 250px;
+    font-size: 10px;
+    }}
 
-.line__item-wrap{
-    
-}
 .iteam{
     color: gray;
-    margin: 0px auto;
+    margin-left: 0px;
     font-size: 20px;
     list-style-type: none;
     width: 700px;
     padding: 5px 0px;
 }
+
+@media screen and (max-width: 768px) {
+    .iteam {
+        text-align: center;
+        color: gray;
+        font-size: 5px;
+        list-style-type: none;
+        width: 350px;
+        padding: 2px 0px;
+        }
+
 .iteam hr{
     padding: 2px;
 }
@@ -118,6 +205,19 @@ a {
     border-radius: 20px;
     margin: 10px 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .news-box {
+        width: 15px;
+        font-size: 7px;
+        color: #FFFFFF;
+        padding: 0px 15px;
+        background: #da37a9;
+        border-radius: 20px;
+        margin: 10px 10px;
+    }}
+
+
 
 /*ここまでnewsここからAbout↓*/
 .middle-up-section__technology{
@@ -133,18 +233,29 @@ a {
     font-family: 'Nanum Pen Script', cursive;
 }
 
+@media screen and (max-width: 768px) {
+    .middle-up-section__before-ttl {
+        font-size: 10px;
+        color: rgb(251, 58, 10);
+        font-family: 'Nanum Pen Script', cursive
+    }}
+
 .middle-up-section__ttl{ 
     margin-bottom:50px;
     font-size: 30px;
     color: rgb(102, 101, 101)
 }
 
+@media screen and (max-width: 768px) {
+    .middle-up-section__ttl {
+        font-size: 10px;
+}}
+
 .flex__contents {
     display: flex;
     justify-content: center;
-    
-    
 }
+
 .middle-up-section__l-txt{
     margin:0px 150px;
     text-align: left;
@@ -152,10 +263,24 @@ a {
     padding: 30px;
     line-height: 40px
 }
+@media screen and (max-width: 768px) {
+    .middle-up-section__l-txt {
+            margin: 0px 20px;
+            text-align: left;
+            font-size: 10px;
+            padding: 10px;
+            line-height: 10px
+        }}
 
 .flex__contents img {
     width: 40%;
 }
+
+@media screen and (max-width: 768px) {
+    .flex__contents img {
+        width: 40%;
+        height: 30%;
+    }}
 
 /*ここまでAboutここからService↓*/
 .middle-section__service{
@@ -170,12 +295,20 @@ a {
     font-family: 'Nanum Pen Script', cursive;
 }
 
+
+
 .middle-section__ttl{
     margin-left: 200px;
     margin-bottom: 50px;
     font-size: 30px;
     color: rgb(102, 101, 101)
 }
+
+@media screen and (max-width: 768px) {
+    .middle-section__ttl {
+        margin-left: 50px;
+        margin-bottom: 25px;
+        font-size: 20px;
 
 .gridcontaner{
     margin-left: 200px;
@@ -185,6 +318,16 @@ a {
     grid-template-rows: 250px 250px;
     grid-template-columns: 1fr 1fr;
 }
+
+@media screen and (max-width: 768px) {
+    .gridcontaner {
+            margin-left: 20px;
+            font-size: 15px;
+            color: #c784ab;
+            display: grid;
+            grid-template-rows: 250px 250px;
+            grid-template-columns: 1fr 1fr;
+        }}
 
 .left-griditem{
     grid-column: 1/2;
@@ -374,9 +517,8 @@ a.btn--radius {
 .footer__btn {
     font-size: 200%;
     color:#FFFFFF
-    width:200%;
+    width: 200%;
     padding: 40px 140px;
-    max-width: 100%;
     background-color: rgb(217, 62, 170);
     border-radius: 100px;
     box-shadow: 0px 5px 5px #000;
@@ -386,4 +528,3 @@ a.btn--radius {
     text-align: center;
     height: 30px;
 }
-
