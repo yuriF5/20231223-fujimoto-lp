@@ -144,33 +144,33 @@ a {
 /*ここまでfirstviewここからmain-news↓*/
 
 .top-section__before-ttl{
-    margin-left: 500px;
+    text-align: center;
     font-size: 20px;
     color: brown;
     font-family: 'Nanum Pen Script', cursive;
 }
 @media screen and (max-width: 768px) {
     .top-section__before-ttl {
-        margin-left: 250px;
+        text-align: center;
         font-size: 5px;
         color: brown;
         font-family: 'Nanum Pen Script', cursive;
 }}
 
 .top-section__ttl{
-    margin: 20px 0px 30px 500px;
+    text-align: center;
     font-size: 30px;
     color:rgb(102, 101, 101)
 }
 @media screen and (max-width: 768px) {
     .top-section__ttl {
-    margin: 10px 0px 15px 250px;
+    text-align: center;
     font-size: 10px;
 }}
 
 .iteam{
     color: gray;
-    margin-left: 0px;
+    margin: 0 auto;
     font-size: 20px;
     list-style-type: none;
     width: 700px;
@@ -179,7 +179,7 @@ a {
 
 @media screen and (max-width: 768px) {
     .iteam {
-        text-align: center;
+        margin:0 auto;
         color: gray;
         font-size: 5px;
         list-style-type: none;
@@ -188,6 +188,7 @@ a {
 }}
 
 .iteam hr{
+    margin: 0 auto;
     padding: 2px;
 }
 .news-box{
@@ -303,7 +304,7 @@ a {
         margin-left: 50px;
         margin-bottom: 25px;
         font-size: 20px;
-    }}
+}}
 
 .gridcontaner{
     margin-left: 200px;
