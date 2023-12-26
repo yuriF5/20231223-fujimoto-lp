@@ -251,7 +251,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    
+    max-width: 1500px;
 }
 
 .middle-up-section__l-txt{
@@ -259,24 +259,26 @@ a {
     text-align: left;
     font-size: 20px;
     line-height: 40px
+    margin-right:10%;
 }
 @media screen and (max-width: 768px) {
     .middle-up-section__l-txt {
         text-align: left;
         font-size: 10px;
         padding: 10px;
-        line-height: 10px
+        line-height: 10px;
 }}
 
 .flex__contents img {
     margin: 0 auto;
     width: 400px;
     align-items: flex-start;
+    margin-left: 10%;
 }
 
 @media screen and (max-width: 768px) {
     .flex__contents img {
-        width: 50%;
+        margin: 0 auto;
         height: auto;
         align-items: flex-start;
 }}
