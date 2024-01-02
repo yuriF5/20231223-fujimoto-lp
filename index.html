@@ -49,7 +49,7 @@
                 <li class="iteam">
                     <date class="news">2021/1/1</date>
                     <span class="news-box">ニュース</span>
-                    COACHTECHのサービスが開始されました。<hr> 
+                    COACHTECHのサービスが開始されました。<hr>
                 </li>
                     <li class="iteam">
                     <date class="news">2021/1/1</date>
@@ -70,7 +70,7 @@
                     <date class="news">2021/1/1</date>
                     <span class="news-box">ニュース</span>
                     COACHTECHのサービスが開始されました。<hr><hr>
-                </li> 
+                </li>
                 <li></li>
             </ul>
         </div>
@@ -78,12 +78,15 @@
             <p class="middle-up-section__before-ttl">About</p>
             <h2 class="middle-up-section__ttl" id="About">Technology&times;Coaching</h2>
             <div class="flex__contents">
-                <p class="middle-up-section__l-txt">株式会社estraはデジタル化が遅れている教育業界に
-                最新のテクノロジーを導入することによって教育の
-                DXを実現します。<br /><br /><br />
-                独自のオペレーションとコーチングを融合した新しい
-                教育の仕組みにより、一人ひとりに合わせた最適なっ教育を提供します。</p>
-                <img src="img/about.jpg"  alt="abaut" class="middle-up-section__r-img" />
+                <p class="middle-up-section__l-txt">
+                    株式会社estraはデジタル化が遅れている教育業界に最新のテクノロジーを導入することによって教育のDXを実現します。<br /><br />
+                    独自のオペレーションとコーチングを融合した新しい
+                    教育の仕組みにより、一人ひとりに合わせた最適なっ教育を提供します。
+                </p>
+
+                <div class="middle-up-section__r-img">
+                    <img src="img/about.jpg"  alt="abaut" />
+                </div>
             </div>
         </div>
         <div class="middle-section__service">
@@ -94,21 +97,25 @@
             <div class="gridcontaner">
                 <div class="left-griditem">
                     <img src="file://wsl.localhost/Ubuntu/home/yuri/coachtech/html-css/lp-test3/20231223-fujimoto-lp/img/service__first.svg" class="griditem__img" />
-                    <h3 class="griditem__ttl">教育事業</h3>
-                    <div class="l-griditem__txt">
-                            <p>サンプルテキストがここに入ります。
-                            サンプルテキストがここに入ります。
-                            サンプルテキストがここに入ります。</p>
+                    <div class="griditems__left">
+                        <h3 class="griditem__ttl" id="lgrid">教育事業</h3>
+                        <div class="l-griditem__txt">
+                                <p>サンプルテキストがここに入ります。
+                                サンプルテキストがここに入ります。
+                                サンプルテキストがここに入ります。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="rightup-griditem">
                     <div class="rup-griditem">
                         <img src="file://wsl.localhost/Ubuntu/home/yuri/coachtech/html-css/lp-test3/20231223-fujimoto-lp/img/service__first.svg" class="rup-griditem__img" />
-                        <h3 class="griditem__ttl">教育事業</h3>
-                        <div class=".griditem__txt">
-                            <p>サンプルテキストがここに入ります。</p>
-                            <p>サンプルテキストがここに入ります。</p>
-                            <p>サンプルテキストがここに入ります。</p>
+                        <div class="griditems__rightup">
+                            <h3 class="griditem__ttl">教育事業</h3>
+                            <div class=".griditem__txt">
+                                <p>サンプルテキストがここに入ります。</p>
+                                <p>サンプルテキストがここに入ります。</p>
+                                <p>サンプルテキストがここに入ります。</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,11 +123,13 @@
                     <div class="rdwn-griditem">
                         <img src="file://wsl.localhost/Ubuntu/home/yuri/coachtech/html-css/lp-test3/20231223-fujimoto-lp/img/service__first.svg"
                             class="rdwn-griditem__img" />
-                        <h3 class="griditem__ttl">教育事業</h3>
-                        <div class=".griditem__txt">
-                            <p>サンプルテキストがここに入ります。</p>
-                            <p>サンプルテキストがここに入ります。</p>
-                            <p>サンプルテキストがここに入ります。</p>
+                        <div class="griditems__rightdwn">
+                            <h3 class="griditem__ttl">教育事業</h3>
+                            <div class=".griditem__txt">
+                                <p>サンプルテキストがここに入ります。</p>
+                                <p>サンプルテキストがここに入ります。</p>
+                                <p>サンプルテキストがここに入ります。</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -131,54 +140,60 @@
             <p class= "middle-dwn-article__before-ttl">Blog</p>
             <h2 class="middle-dwn-article__ttl" id="Blog">ブログ</h2>
             <div class="flex___item-wrap">
-                <div class="practice__card">
-                    <div class="card__img">
+                <div class="practice__card-list">
+                    <div class="practice__card">
                         <img src="img/blog__first.jpg" alt="" />
-                        <div class="card__cat">Blog</div>
+                        <div class="card__img">
+                            <p class="card__cat">Blog</p>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+                        <div class="tag">
+                            <p class="card__date">2021/01/01</p>
+                            <p class="card__tag">#COACHTECH</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card__content"> 
-                    <h3 class="card__ttl">プログラミング学習の勉強方法を<br />特集。挫折しない秘訣とは？</h3>
-                    <div class="tag">
-                        <p class="card__date">2021/01/01</p>
-                        <p class="card__tag">#COACHTECH</p>
-                    </div>
-                </div>
-            
-                <div class="practice__card">
-                    <div class="card__img">
+                <div class="practice__card-list">
+                    <div class="practice__card">
                         <img src="img/blog__first.jpg" alt="" />
-                        <div class="card__cat">Blog</div>
+                        <div class="card__img">
+                            <p class="card__cat">Blog</p>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+                        <div class="tag">
+                            <p class="card__date">2021/01/01</p>
+                            <p class="card__tag">#COACHTECH</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card__content">
-                    <h3 class="card__ttl">プログラミング学習の勉強方法を<br />特集。挫折しない秘訣とは？</h3>
-                    <div class="tag">
-                        <p class="card__date">2021/01/01</p>
-                        <p class="card__tag">#COACHTECH</p>
-                    </div>
-                </div>
-            
-                <div class="practice__card">
-                    <div class="card__img">
+                <div class="practice__card-list">
+                    <div class="practice__card">
                         <img src="img/blog__first.jpg" alt="" />
-                        <div class="card__cat">Blog</div>
+                        <div class="card__img">
+                            <p class="card__cat">Blog</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card__content">
-                    <h3 class="card__ttl">プログラミング学習の勉強方法を<br />特集。挫折しない秘訣とは？</h3>
-                    <div class="tag">
-                        <p class="card__date">2021/01/01</p>
-                        <p class="card__tag">#COACHTECH</p>
+                    <div class="card__content">
+                        <h3 class="card__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+                        <div class="tag">
+                            <p class="card__date">2021/01/01</p>
+                            <p class="card__tag">#COACHTECH</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a href="" class="middle-dwn-active__btn btn--radius">一覧ページへ</a>
+            <div class="middle-dwn-active__btn">
+                <a href="">一覧ページへ</a>
+            </div>
         </div>
         <div class="bottom-section__office">
             <p class="bottom-section__before-ttl">Company</p>
             <h2 class="bottom-section__ttl" id="Company">会社概要</h2>
-            <div class=line__item-wrap>
+            <div class=C-line__item-wrap>
                 <table class="bottom-section__txt">
                     <tr>
                     <th>会社名</th>
@@ -210,14 +225,15 @@
         <div class="bottom-article__links">
             <div class="bottom-article__l-img">
                 <img src="img/recruit.png" />
-                <a class="bottom-article__l-txt"href="">採用情報</a>
-                
+                <p class="bottom-article__l-txt" id="recruit">
+                    <a href="">採用情報</a>
+                </p>
             </div>
-            
             <div class="bottom-article__r-img">
-
-                <img src="img/interview.png">
-                <a class="bottom-article__r-txt" href="">社員インタビュー</a>
+                <img src="img/interview.png" />
+                <p class="bottom-article__r-txt" id="interview">
+                    <a href="">社員インタビュー</a>
+                </p>
             </div>
         </div>
     </div>
@@ -225,10 +241,19 @@
         <div class="footer__top">
             <h4 class="footer__tt" id="Contact">株式会社estraへのお問い合わせはこちらから</h4><br />
 
-            <div class="line__m"></div>
-            <div class="mail"></div>
-            <a href="" class="footer__btn">お問い合わせ</a>
-            
+            <div class="line__m">
+            </div>
+            <div class="mail">
+                <a href="" class="footer__btn" id="btn">
+                    <span class="buttonIconText_icon">
+                        <svg class="iconEmail" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3.5" y="5.5" width="17" height="12" rx="1.5" stroke="#6fa24a" />
+                            <path d="M6 9C6 9 11.5 12 12 12C12.5 12 18 9 18 9" stroke="#6fa24a" stroke-linecap="round" />
+                        </svg>
+                    </span>
+                    <span class="buttonIconText_text" id="buttonIconText_text">お問い合わせ</span>
+                </a>
+            </div>
         </div>
         <div class="footer__bottom">
             <small>copy-right&copy;estra,inc All Rights Reserved.</small>
