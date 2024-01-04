@@ -597,13 +597,11 @@ a {
 }
 
 .C-line__item-wrap{
-    max-width: 1500px;
     margin: 0 auto;
     margin-bottom: 300px;
 }
 @media screen and (max-width: 768px) {
     .C-line__item-wrap {
-    max-width: 768px;
     margin: 0 auto;
     margin-bottom:100px;
 }}
