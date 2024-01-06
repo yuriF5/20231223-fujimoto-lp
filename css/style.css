@@ -96,8 +96,8 @@ a {
 @media screen and (max-width: 768px) {
     .firstview__ttl {
         position: absolute;
-            top: 10%;
-            left: 4%;
+        top: 10%;
+        left: 4%;
 }}
 
 
@@ -235,7 +235,7 @@ a {
         font-family: 'Nanum Pen Script', cursive
 }}
 
-.middle-up-section__ttl{ 
+.middle-up-section__ttl{
     margin-bottom:50px;
     font-size: 30px;
     color: rgb(102, 101, 101)
@@ -285,10 +285,16 @@ a {
 
 /*ここまでAboutここからService↓*/
 .middle-section__service{
-    max-width: 1500px;
     margin: 0 auto;
     margin-bottom: 150px;
-
+    margin:10px 60px 150px;
+}
+@media screen and (max-width: 768px) {
+    .middle-section__service {
+        margin: 0 auto;
+        margin-bottom: 150px;
+        margin: 10px 30px 75px;
+        }
 }
 
 
@@ -417,10 +423,18 @@ a {
 
 /*ここまでServiceここからBlog↓*/
 .middle-dwn-article__blog{
-    max-width: 1500px;
     margin: 0 auto;
+    margin: 10px 60px 150px;/*余白変更*/
+    padding: 0px;
 }
 
+@media screen and (max-width: 768px) {
+    .middle-dwn-article__blog {
+        margin: 0 auto;
+        margin-bottom: 150px;
+        margin: 10px 30px 75px;/*余白変更*/
+    }
+}
 
 .middle-dwn-article__before-ttl {
     font-size: 20px;
@@ -437,10 +451,10 @@ a {
 }
 @media screen and (max-width: 768px) {
     .middle-dwn-article__ttl {
-            margin-left: 200px;
-            margin-bottom: 30px;
-            font-size: 15px;
-            color: rgb(102, 101, 101)
+        margin-left: 200px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        color: rgb(102, 101, 101)
 }}
 
 .practice__card-list{
@@ -592,8 +606,15 @@ a {
 /*ここまでBlog
 ここからCompany↓*/
 .bottom-section__office{
-    max-width: 1500px;
-    margin: 0 auto;
+    margin: 10px 60px 150px;/*余白変更*/
+    padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-section__office {
+        margin-bottom: 150px;
+        margin: 10px 30px 75px;/*余白変更*/
+    }
 }
 
 .bottom-section__before-ttl {
@@ -630,9 +651,9 @@ a {
 
 @media screen and (max-width: 768px) {
     .bottom-section__txt {
-            font-size: 10px;
-            text-align: left;
-            margin: 0 auto;
+        font-size: 10px;
+        text-align: left;
+        margin: 0 auto;
 }}
 
 .bottom-section__txt th{
@@ -739,10 +760,18 @@ a {
 
 /*ここまでCompanyここからContact-footer↓*/
 .footer__top {
-    max-width: 1500px;
+    margin: 10px 60px 150px;/*余白変更*/
     height: 100px;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__top {
+        margin: 10px 30px 75px;/*余白変更*/
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 .footer__tt {
@@ -772,7 +801,7 @@ a {
     background-color: rgb(217, 62, 170);
     color:#FFFFFF;
     width: 30%;
-    padding: 20px 140px;
+    padding: 20px 80px;
     border-radius: 100px;
     box-shadow: 0px 5px 5px #000;
 }
@@ -785,21 +814,19 @@ a {
 @media screen and (max-width: 768px) {
     .footer__btn {
         flex-direction: row;
-        font-size: 20%;
+        font-size: 100%;
         background-color: rgb(217, 62, 170);
         color: #FFFFFF;
         width: 20%;
-        padding: 2px 10px;
-        border-radius: 20px;
-        box-shadow: 0px 2px 2px #000;
+        padding: 10px 50px;
+        border-radius: 100px;
+        box-shadow: 0px 5px 5px #000;
         margin: 0 auto;
 }}
 
 
 .footer__bottom{
-    max-width: 1500px;
-    margin: 0 auto;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 400px;
     height: 30px;
 }
