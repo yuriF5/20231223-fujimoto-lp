@@ -323,7 +323,7 @@ a {
 .gridcontaner{
     max-width:1500px;
     margin:0 auto;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     display: grid;
     grid-template-rows: 305px 305px;
@@ -363,14 +363,14 @@ a {
 
 .griditem__ttl{
     text-align: left;
-    padding-top: 50px;
+    padding-top: 30px;
     color: #FFFFFF;
 }
 #lgrid{
     text-align: center;
 }
 .l-griditem__txt{
-    width: 500px;
+    width: 400px;
     color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
@@ -388,7 +388,7 @@ a {
     grid-column: 2/3;
     grid-row: 1/2;
     background: #e234a8;
-    padding: 30px 0px;
+    padding: 10px 0px;
     color: #FFFFFF;
 }
 
@@ -412,7 +412,7 @@ a {
     grid-column: 2/3;
     grid-row: 2/3;
     background: #f96ecb;
-    padding: 30px 0px;
+    padding: 10px 0px;
     color: #FFFFFF;
 }
 
@@ -472,7 +472,7 @@ a {
 
 .flex___item-wrap img{
     position: absolute;
-    width:300px;
+    width:260px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -488,24 +488,19 @@ a {
 }
 
 .practice__card-list__1{
-    max-width:500px;
+    max-width:460px;
     padding: 0 10px;
 }
 
 .practice__card-list__2 {
-    max-width:500px;
+    max-width:460px;
     padding: 0 10px;
 }
 
 
 .practice__card-list__3 {
-    max-width:500px;
+    max-width:460px;
     padding: 0 10px;
-}
-
-.practice__card {
-    margin: 0 auto;
-
 }
 
 
@@ -517,7 +512,7 @@ a {
     width: 40px;
     height: 20px;
     text-align: center;
-    margin-bottom: 180px;
+    margin-bottom: 150px;
     position: relative;
     z-index: 2;
     border-top-left-radius: 20px;
@@ -543,8 +538,8 @@ a {
 }
 
 .card__ttl{
-    width:300px;
-    font-size: 20px;
+    width:260px;
+    font-size: 15px;
     line-height: 1.7;
     margin-bottom: 20px;
 }
@@ -569,7 +564,7 @@ a {
 
 .card__tag {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 80px;
     color: #888888;
 }
 
