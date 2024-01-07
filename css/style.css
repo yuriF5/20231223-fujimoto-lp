@@ -468,7 +468,7 @@ a {
 .flex___item-wrap {
     max-width: 1500px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     margin: 0 auto;
 
 }
@@ -476,7 +476,7 @@ a {
 @media screen and (max-width: 768px) {
     .flex___item-wrap {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 
