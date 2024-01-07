@@ -501,12 +501,16 @@ a {
     max-width:460px;
     padding: 0 10px;
     background-color: rgb(206, 203, 203)
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .practice__card-list__2 {
     max-width:460px;
     padding: 0 10px;
     background-color: rgb(206, 203, 203)
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 
@@ -514,6 +518,8 @@ a {
     max-width:460px;
     padding: 0 10px;
     background-color: rgb(206, 203, 203)
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 
