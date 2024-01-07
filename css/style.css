@@ -20,6 +20,7 @@ a {
     justify-content: space-between;
     height: 70px;
     line-height: 70px;
+    background-color: #FFFFFF;/*背景追加*/
 }
 
 .top-header {
@@ -76,6 +77,7 @@ a {
 
 .firstview{
     margin-bottom:100px;
+    background-color: #FFFFFF;
 }
 
 .relative {
@@ -102,14 +104,14 @@ a {
 
 
 .firstview__ttl__top{
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'Nanum Pen Script',cursive;
     color:rgb(226, 43, 180);
 }
 
 @media screen and (max-width: 768px) {
     .firstview__ttl__top {
-        font-size: 20px;
+        font-size: 40px;
 } }
 
 
@@ -119,59 +121,59 @@ a {
 
 .firstvier__subttl_txt{
     color: rgb(226, 43, 180);
-    font-size: 40px
+    margin-top: 20px;
 }
-@media screen and (max-width: 768px) {
-    .firstvier__subttl_txt{
-        font-size: 10px;
-}}
 
+@media screen and (max-width: 768px) {
+    .firstvier__subttl_txt {
+        color: rgb(226, 43, 180);
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
 
 .emphasis{
     color: aqua;
 }
 
 .firstview__subttl{
-    font-size: 30px;
     color: gray;
 }
 
-@media screen and (max-width: 768px) {
-    .firstview__subttl {
-        font-size: 10px;
-}}
+
 
 /*ここまでfirstviewここからmain-news↓*/
 
+.top-section__news{
+    margin: 10px 60px 150px;
+    background-color: #FFFFFF;/*背景追加*/
+}
+
 .top-section__before-ttl{
-    text-align: center;
-    font-size: 20px;
     color: brown;
     font-family: 'Nanum Pen Script', cursive;
 }
 @media screen and (max-width: 768px) {
     .top-section__before-ttl {
-        text-align: center;
-        font-size: 5px;
         color: brown;
         font-family: 'Nanum Pen Script', cursive;
 }}
 
 .top-section__ttl{
-    text-align: center;
     font-size: 30px;
     color:rgb(102, 101, 101)
+
 }
+
 @media screen and (max-width: 768px) {
     .top-section__ttl {
-    text-align: center;
-    font-size: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
 }}
 
 .iteam{
     color: gray;
     margin: 0 auto;
-    font-size: 20px;
     list-style-type: none;
     width: 700px;
     padding: 10px 30px;
@@ -181,7 +183,6 @@ a {
     .iteam {
         margin:0 auto;
         color: gray;
-        font-size: 5px;
         list-style-type: none;
         width: 350px;
         padding: 2px 0px;
@@ -192,7 +193,6 @@ a {
 }
 .news-box{
     width: 100px;
-    font-size: 15px;
     color: #FFFFFF;
     padding: 0px 30px;
     background: #da37a9;
@@ -203,7 +203,6 @@ a {
 @media screen and (max-width: 768px) {
     .news-box {
         width: 15px;
-        font-size: 7px;
         color: #FFFFFF;
         padding: 0px 15px;
         background: #da37a9;
@@ -217,12 +216,18 @@ a {
 .middle-up-section__technology{
     text-align: center;
     margin-bottom: 200px;
+    background-color: #FFFFFF;/*背景追加*/
 }
 
+@media screen and (max-width: 768px) {
+    .middle-up-section__technology {
+        text-align: center;
+        margin-bottom: 200px;
+        background-color: #FFFFFF;/*背景追加*/
+    }
+}
 
 .middle-up-section__before-ttl{
-    margin-bottom: 20px;
-    font-size: 20px;
     color: rgb(251, 58, 10);
     font-family: 'Nanum Pen Script', cursive;
 }
@@ -230,7 +235,6 @@ a {
 @media screen and (max-width: 768px) {
     .middle-up-section__before-ttl {
         margin: 0 auto;
-        font-size: 10px;
         color: rgb(251, 58, 10);
         font-family: 'Nanum Pen Script', cursive
 }}
@@ -243,7 +247,7 @@ a {
 
 @media screen and (max-width: 768px) {
     .middle-up-section__ttl {
-        font-size: 10px;
+        font-size: 15px;
 }}
 
 .flex__contents {
@@ -254,19 +258,17 @@ a {
 }
 
 .middle-up-section__l-txt{
-    width:480px;
+    width:350px;
     text-align: left;
-    font-size: 20px;
     line-height: 40px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 @media screen and (max-width: 768px) {
     .middle-up-section__l-txt {
         text-align: left;
-        font-size: 10px;
         padding: 10px;
         line-height: 10px;
-        margin-right: 20px;
+        margin-right: 40px;
         align-items: flex-start;
 }}
 
@@ -286,21 +288,22 @@ a {
 /*ここまでAboutここからService↓*/
 .middle-section__service{
     margin: 0 auto;
-    margin-bottom: 150px;
     margin:10px 60px 150px;
+    background-color: #FFFFFF;/*背景追加*/
 }
+
 @media screen and (max-width: 768px) {
     .middle-section__service {
         margin: 0 auto;
         margin-bottom: 150px;
         margin: 10px 30px 75px;
+        background-color: #FFFFFF;/*背景追加*/
         }
 }
 
 
 .middle-section__before-ttl {
     margin: 0 auto;
-    font-size: 20px;
     color: rgb(251, 58, 10);
     font-family: 'Nanum Pen Script', cursive;
 }
@@ -317,16 +320,15 @@ a {
 @media screen and (max-width: 768px) {
     .middle-section__ttl {
         margin-bottom: 25px;
-        font-size: 20px;
+        font-size: 15px;
 }}
 
 .gridcontaner{
     max-width:1500px;
     margin:0 auto;
-    font-size: 20px;
     color: #fff;
     display: grid;
-    grid-template-rows: 305px 305px;
+    grid-template-rows: 300px 300px;
     grid-template-columns: 1fr 1fr ;
 }
 
@@ -334,7 +336,6 @@ a {
     .gridcontaner {
         min-width:380px;
         margin-left: 20px;
-        font-size: 15px;
         color: #c784ab;
         display: grid;
         grid-template-rows: 200px 200px;
@@ -426,6 +427,7 @@ a {
     margin: 0 auto;
     margin: 10px 60px 150px;/*余白変更*/
     padding: 0px;
+    background-color: #FFFFFF;/*背景追加*/
 }
 
 @media screen and (max-width: 768px) {
@@ -433,11 +435,11 @@ a {
         margin: 0 auto;
         margin-bottom: 150px;
         margin: 10px 30px 75px;/*余白変更*/
+        background-color: #FFFFFF;/*背景追加*/
     }
 }
 
 .middle-dwn-article__before-ttl {
-    font-size: 20px;
     color: rgb(251, 58, 10);
     font-family: 'Nanum Pen Script', cursive;
 }
@@ -539,14 +541,12 @@ a {
 
 .card__ttl{
     width:260px;
-    font-size: 15px;
     line-height: 1.7;
     margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
     .card__ttl {
         width:200px;
-        font-size: 10px;
         line-height: 0.8;
         text-align: left;
         margin-bottom: 10px;
@@ -574,7 +574,7 @@ a {
     border: 3px solid #a14081;
     display: block;
     width: 30%;
-    font-size: 150%;
+    font-size: 150%;/**/
     font-weight: bolder;
     padding: 20px 0px 0px 0px;
     box-sizing: border-box;
@@ -590,7 +590,7 @@ a {
         border-radius: 100px;
         border: 3px solid #a14081;
         width: 40%;
-        font-size: 200%;
+        font-size: 200%;/**/
         font-weight: bolder;
         padding: 20px 0px;
         box-sizing: border-box;
@@ -607,40 +607,46 @@ a {
 .bottom-section__office{
     margin: 10px 60px 150px;/*余白変更*/
     padding: 0px;
+    background-color: #FFFFFF;/*背景追加*/
 }
 
 @media screen and (max-width: 768px) {
     .bottom-section__office {
         margin-bottom: 150px;
         margin: 10px 30px 75px;/*余白変更*/
+        background-color: #FFFFFF;/*背景追加*/
     }
 }
 
 .bottom-section__before-ttl {
-    font-size: 20px;
     color: rgb(251, 58, 10);
     font-family: 'Nanum Pen Script', cursive;
 }
 
 .bottom-section__ttl {
-    font-size: 20px;
-    color: rgb(102, 101, 101)
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 768px) {
+    .bottom-section__ttl {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+}
+
+
 .C-line__item-wrap{
     margin: 0 auto;
-    margin-bottom: 300px;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
     .C-line__item-wrap {
     margin: 0 auto;
-    margin-bottom:100px;
 }}
 
 
 .bottom-section__txt  {
-    font-size: 30px;
     text-align: left;
     margin: 0 auto;
     white-space: nowrap;
@@ -649,41 +655,36 @@ a {
 
 @media screen and (max-width: 768px) {
     .bottom-section__txt {
-        font-size: 10px;
         text-align: left;
         margin: 0 auto;
 }}
 
 .bottom-section__txt th{
-    font-size: 50px;
     border:1px black solid;
-    padding: 20px 300px 20px 0px;
+    padding: 20px 100px 20px 0px;
 }
 @media screen and (max-width: 768px) {
     .bottom-section__txt th {
-        font-size: 20px;
         border: 1px black solid;
-        padding: 10px 150px 10px 0px;
+        padding: 10px 50px 10px 0px;
 }}
 
 
 .bottom-section__txt td {
-    font-size: 50px;
     border: 1px black solid;
-    padding: 20px 500px 20px 0px;
+    padding: 20px 200px 20px 0px;
 }
 
 @media screen and (max-width: 768px) {
     .bottom-section__txt td {
-        font-size: 20px;
         border: 1px black solid;
-        padding: 10px 150px 10px 0px;
+        padding: 10px 100px 10px 0px;
 }}
 
 
 .bottom-article__links{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .bottom-article__l-img{
@@ -707,7 +708,6 @@ a {
 }
 @media screen and (max-width: 768px) {
     .bottom-article__l-txt {
-        font-size: 5px;
         color: #fff;
         position: absolute;
         left: 40%;
@@ -716,6 +716,7 @@ a {
 }}
 
 .bottom-article__l-txt a{
+    color: #fff;
     padding: ;
 }
 
@@ -740,7 +741,6 @@ a {
     position: absolute;
     left: 40%;
     bottom: 30%;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -757,12 +757,18 @@ a {
     color:#FFFFFF;
 }
 .bottom-article__r-txt a{
-    padding:
+    color: #fff;
+    padding:;
 }
 
 /*ここまでCompanyここからContact-footer↓*/
+
+.footer{
+    background-color: #FFFFFF;/*背景追加*/
+}
+
 .footer__top {
-    margin: 10px 60px 150px;/*余白変更*/
+    margin: 10px 30px 150px;/*余白変更*/
     height: 100px;
     margin: 0 auto;
     text-align: center;
@@ -770,14 +776,15 @@ a {
 
 @media screen and (max-width: 768px) {
     .footer__top {
-        margin: 10px 30px 75px;/*余白変更*/
+        margin: 10px 10px 75px;/*余白変更*/
         margin: 0 auto;
         text-align: center;
+        background-color: #FFFFFF;/*背景追加*/
     }
 }
 
 .footer__tt {
-    font-size: 30px;
+    /*font-size: 30px;*/
     margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
@@ -788,7 +795,7 @@ a {
 
 .line__m {
     width: 0%;
-    border:5px solid #000;
+    border:3px solid #d63e88;
     padding: 30px 0px;
     margin: 0 auto;
 }
@@ -796,6 +803,7 @@ a {
 .mail{
     margin: 30px 0px 100px;
     padding: 30px 0px;
+    background-color: #FFFFFF;/
 }
 
 #buttonIconText_icon{
@@ -846,6 +854,7 @@ a {
 
 .footer__bottom{
     text-align: center;
-    margin-top: 400px;
+    margin-top: 200px;
     height: 30px;
+    background-color: #FFFFFF;//*背景追加*/
 }
